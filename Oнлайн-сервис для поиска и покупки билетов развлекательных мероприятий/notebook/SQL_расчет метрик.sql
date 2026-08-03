@@ -1,5 +1,6 @@
 -- Анализ данных с помощью SQL и создание дашборда в DataLens. Вычисление ключевых метрик продукта
 
+-- дашборд: https://datalens.yandex/7rscqbapc30oq
 --1. Получение общих данных
 SELECT DISTINCT currency_code,
        SUM (revenue) AS total_revenue,
